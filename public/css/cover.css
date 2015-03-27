@@ -55,7 +55,6 @@ vertical-align: top;
 .inner {
     padding: 30px;
 }
-
 /*
  * Header
  */
@@ -154,9 +153,8 @@ text-align: center;
         width: 1080px;
    }
 }
-
-
 /*复写一些样式*/
+
 .bigrow {
     padding-top: 5px;
 }
@@ -168,14 +166,13 @@ text-align: center;
     margin-top: 5px;
 }
 .well {
-    margin-left:15px;
-    width : 97%;
-    height:600px;
+    margin-left: 15px;
+    width: 97%;
+    height: 600px;
     color: black;
-    overflow:auto;
+    overflow: auto;
     position: relative;
 }
-
 #deployBtn {
-    width:300px;
+    width: 300px;
 }

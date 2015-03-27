@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>自动化测试平台</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Site CSS -->
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./bootstrap/css/site.min.css" rel="stylesheet">
+
+<!-- Extras CSS -->
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="./bootstrap/js/html5shiv.min.js"></script>
+  <![endif]-->
+
+<!-- Favicons -->
+<link rel="icon" href="./favicon.gif" type="image/x-icon">
+<link rel="shortcut icon" href="./favicon.gif">
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand hidden-sm" href="/">测试报告</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/">首页</a></li>
+					<li class="dropdown"><a href="javascript:void(0)"
+						class="dropdown-toggle" data-toggle="dropdown">单元测试<b
+							class="caret"></b></a></li>
+					<li class="dropdown"><a href="javascript:void(0)"
+						class="dropdown-toggle" data-toggle="dropdown">功能测试<b
+							class="caret"></b></a></li>
+					<li class="dropdown"><a href="javascript:void(0)"
+						class="dropdown-toggle" data-toggle="dropdown">性能测试<b
+							class="caret"></b></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Carousel
+    ================================================== -->
+	<div id="myCarousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active masthead">
+				<div class="masthead-bg"></div>
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>测试报告</h1>
+						<h2>展示各种测试报告。</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /.carousel -->
+
+
+	<div class="bc-social">
+		<div class="container">
+			<ul class="bc-social-buttons">
+				<li><span class="label label-success">邮件地址:<a
+						href="mailto:zhangxinyf2@hikvision.com.cn">zhangxinyf2@hikvision.com.cn</a></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="container projects">
+
+		<div class="projects-header page-header">
+			<h2>测试报告</h2>
+			<p>陆续增加</p>
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-6 col-md-4 ">
+				<div class="thumbnail">
+					<a href="./vtdu" target="_blank"><img class="lazy"
+						src="./image/vtdu.png" width="300" height="150"></a>
+					<div class="caption">
+						<h3>
+							<a href="./vtdu" target="_blank">VTDU当用户测试报告<br> <small>by
+									@zhangxinyf2</small>
+							</a>
+						</h3>
+						<p>主要针对vtdu与cas连接优化后的性能测试。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 ">
+				<div class="thumbnail">
+					<a href="./vtduper" target="_blank"><img class="lazy"
+						src="./image/vtdu.png" width="300" height="150"></a>
+					<div class="caption">
+						<h3>
+							<a href="./vtduper" target="_blank">VTDU性能测试报告<br> <small>by
+									@zhangxinyf2</small>
+							</a>
+						</h3>
+						<p>主要针对vtdu与cas连接优化后的性能测试。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 ">
+				<div class="thumbnail">
+					<a href="./vtdutrans" target="_blank"><img class="lazy"
+						src="./image/vtdu.png" width="300" height="150"></a>
+					<div class="caption">
+						<h3>
+							<a href="./vtdutrans" target="_blank">腾讯云主机VTDU转发性能测试<br> <small>by
+									@zhangxinyf2</small>
+							</a>
+						</h3>
+						<p>腾讯云上部署测试VTDU的转发性能测试。</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<!-- FOOTER -->
+	<footer class="footer ">
+		<!-- <p>
+			本网站所列开源项目的中文版文档全部由<a href="http://www.bootcss.com/">Bootstrap中文网</a>成员翻译整理，并全部遵循
+			<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC
+				BY 3.0</a>协议发布。
+		</p> -->
+		<p>
+			Powered By <a href="#" title="zhangxin">zhangxin</a>
+		</p>
+		<!-- <p>
+			<a href="https://www.upyun.com" target="_blank">又拍云</a>为本站提供CDN加速服务
+		</p>
+		<p>
+			<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11008151号</a>
+		</p> -->
+	</footer>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="./js/common/jquery.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

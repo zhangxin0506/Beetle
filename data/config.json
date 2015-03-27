@@ -1,0 +1,21 @@
+{
+	"serviceType": ["Base", "C++", "Java"],
+	"BService": ["mysql", "zookeeper", "memcached", "nginx", "lvs", "gcc", "jdk", "nodejs", "kafka", "tomcat"],
+	"CService": ["das", "cas", "lbs", "stun", "vtm", "vtdu", "rtsp", "alarm-bussiess", "alarm-router", "tts", "hls", "tts", "stream-wuhan"],
+	"JService": ["ys7_web", "auth", "cloudmanager", "Dbagent", "deviceService", "alarmService", "sus", "sms", "messageServer", "transmitServer", "push", "openapi", "webxi_web", "moniter"],
+	"server": [{
+		"ip": "10.80.21.17",
+		"user": "root",
+		"password": "pass"
+	}, {
+		"ip": "10.80.21.23",
+		"user": "root",
+		"password": "pass"
+	}, {
+		"ip": "10.80.21.28",
+		"user": "root",
+		"password": "pass"
+	}],
+	"user": "root",
+	"password": "pass"
+}
